@@ -21,9 +21,9 @@
             <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Button x:Name="btnDuplaz" Content="Dupla méretre növel"/>
                 <Button x:Name="btnLeenged" Content="Kiüríti" Margin="30 0"/>
-                <TextBox x:Name="txtMennyitTolt" Width="40" Background="LightGreen"/>
+                <TextBox x:Name="txtMennyitTolt" Width="40" Background="LightGreen" />
                 <Label Content="liter"/>
-                <Button x:Name="btntolt" Content="Töltés"/>
+                <Button x:Name="btntolt" Content="Töltés" Click="btntolt_Click"/>
             </StackPanel>
         </Grid>
 

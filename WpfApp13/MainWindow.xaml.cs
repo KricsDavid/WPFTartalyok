@@ -46,5 +46,18 @@ namespace WpfApp13
             txtBel.Text = "";
             txtCel.Text = "";
         }
+
+        private void btntolt_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Convert.ToDouble(txtMennyitTolt.Text);
+            }
+            catch (Exception hiba)
+            {
+
+                MessageBox.Show("Számot kell megadni!");
+            }
+        }
     }
 }
