@@ -36,8 +36,8 @@
             </Grid.RowDefinitions>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <RadioButton x:Name="rdoTeglatest" GroupName="TestFajta" Content="Téglatest"/>
-                <RadioButton x:Name="rdoKocka" GroupName="TestFajta" Content="Kocka" />
+                <RadioButton x:Name="rdoTeglatest" GroupName="TestFajta" Content="Téglatest" Checked="rdoTeglatest_Checked"/>
+                <RadioButton x:Name="rdoKocka" GroupName="TestFajta" Content="10x10x10 Kocka" Checked="rdoKocka_Checked" />
             </StackPanel>
 
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">

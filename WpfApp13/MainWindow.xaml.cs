@@ -26,5 +26,25 @@ namespace WpfApp13
         {
             InitializeComponent();
         }
+
+        private void rdoKocka_Checked(object sender, RoutedEventArgs e)
+        {
+            txtAel.Text = "10";
+            txtBel.Text = "10";
+            txtCel.Text = "10";
+            txtAel.IsEnabled=false;
+            txtBel.IsEnabled=false;
+            txtCel.IsEnabled=false;
+        }
+
+        private void rdoTeglatest_Checked(object sender, RoutedEventArgs e)
+        {
+            txtAel.IsEnabled = true;
+            txtBel.IsEnabled = true;
+            txtCel.IsEnabled = true;
+            txtAel.Text = "";
+            txtBel.Text = "";
+            txtCel.Text = "";
+        }
     }
 }
